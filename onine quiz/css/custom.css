@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i|Monoton');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons'); 
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+  
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:
+    'Source Sans Pro',
+    sans-serif;
+  min-height: 100vh;
+}
+
+.tile{
+  background-color: #c6c8e7;
+  border-radius: .4rem;
+  box-shadow: 0 .75rem 1.5rem rgba(104, 73, 145, 0.2), 0 .25rem .25rem rgba(46, 32, 87, 0.2);
+  position: relative;
+  width: 100%;
+  min-width: 600px;
+  max-width: 30rem;
+  height: 400px;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.imagestyle{
+width: 32px;
+	height: 32px;
+	cursor: pointer;
+}
+.redrow{
+background-color: red;
+color:yellow;
+font-style: italic;
+}
+
+body{
+    background-image:url(Abstract_Paper.svg);
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+.display{
+  
+    margin: 20px 10px;
+}
+
+.question {
+  color:black;
+    margin-left: 10px; 
+}
